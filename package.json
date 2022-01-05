@@ -1,0 +1,25 @@
+{
+  "name": "cypress-apitest-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldryandimas/cypress-apitest-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldryandimas/cypress-apitest-learn/issues"
+  },
+  "homepage": "https://github.com/aldryandimas/cypress-apitest-learn#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "prettier": "2.5.1"
+  }
+}
